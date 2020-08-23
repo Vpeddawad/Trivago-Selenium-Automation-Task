@@ -1,7 +1,8 @@
 # cucumber_selenium
 cucumber selenium project for Trivago
 
-Technologies and Tools used:
+# Technologies and Tools used:
+
       Language: Java
       Test Automation Tool: Selenium WebDriver
       Test Automation Framework: Cucumber
@@ -10,46 +11,6 @@ Technologies and Tools used:
       Logging Framework: Log4j
       IDE: Eclipse
 
-Project Structure:
-    +---trivago-cucumber
-        |
-        +---src
-        |    +---test
-        |	  |    +---java
-        |	  |    |    \---runner
-        |	  |	    |        \---TestRunner.java
-        |    |    +---resources
-        |    |	    |    \---features
-        |    |    |        \---*.feature
-        |    +---main
-        |    |    +---java
-        |    |    |    \---com.base.application.trivago
-        |    |    |    |    \---*.java
-        |    |    |    \---com.base.application.trivago.hotel
-        |    |    |    |    \---*.java
-        |    |    |    |---com.base.config
-        |    |    |    |    \---*.java
-		|    |    |    \---com.base.config.error
-        |    |    |    |    \---*.java
-        |    |    |    \---com.base.exception
-        |    |    |    |    \---*.java
-        |    |    |    |---com.base.fixer
-        |    |    |    |    \---*.java
-	    |    |    |    |---com.base.logger
-        |    |    |    |    \---*.java
-        |    |    |    |---com.base.testcase.homepage
-        |    |    |    |    \---*.java
-        +---src
-        |
-        +---target
-        |
-        +---log4j.properties
-        |
-        +---pom.xml
-        |
-        +---readme.md
-        |
-        
 
 # Web-Testing-With-Selenium
 Project to test Trivago with Selenium and Cucumber
@@ -72,16 +33,17 @@ Project to test Trivago with Selenium and Cucumber
 
 #### Application tests
 
-* src/test/resources/Features : create a structure in order to have all the features of a page in the same folder.
-* src/test/java/resources: drivers are kept here .
-* src/test/java/runner:  here you have the classes to run the tests ends with Test
-* src/test/java/stepDefinitions: create a StepDef per Feature, and follow the same package structure as the related feature
+* src/test/resources/Features : Create a structure in order to have all the features of a page in the same folder.
+* src/test/java/resources: Drivers are kept here .
+* src/test/java/runner:  Here you have the classes to run the tests ends with Test
+* src/test/java/stepDefinitions: Create a StepDef per Feature, and follow the same package structure as the related feature
   
 ## Configuration
 * This is a mavan project, you can import it from your  IDE as mavan project.
 * To verify that all is up to date with dependencies and test compilation, execute the
 * mvn clean 
-* mnv build 
+* mvn build 
+
 
 ### How to build and execute the tests?
         1. To run from an Eclipse IDE using JUnit, right click on TrivagoSearchRunnerTest.java -> Select Run As -> JUnit Test
