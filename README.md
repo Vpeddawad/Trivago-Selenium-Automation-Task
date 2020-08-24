@@ -67,6 +67,8 @@ Project to Test Trivago Hotel Search with Selenium & Cucumber
             
             --"
   ### How did overcome the Challenges Faced?
-        To overcome above access denied error, whenever above actions are performed using automated browser , the redirecting URL has been captured and then that URL is opened           in new browser to get rid of Access denied error. Also we could have done with alternative options to automate using web services as well.
+        To overcome above access denied error, whenever above actions are performed using automated browser , the redirecting URL has been captured and 
+        then that URL is opened in new browser to get rid of Access denied error. 
+        Also we could have done with alternative options to automate using web services as well.
 
 
