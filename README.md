@@ -56,5 +56,17 @@ Project to Test Trivago Hotel Search with Selenium & Cucumber
                
 ### Where to find logging information?
         You can find logging information selenium.log
+        
+### Challenges Faced Any?
+      Trivago does not allow automated browsers for redirection to another web site of advertiser partner. 
+      When we click on any of the lowest hotel rates it will re-direct to the advertiser partners website but this action is not allowed by Trivago when its accessed through any       automation tools. Whenever such actions are performed it give below access denied error
+           " --
+            Access Denied
+            You don't have permission to access "http://www.trivago.com/forward.php?" on this server.
+            Reference #18.8c851502.1598206786.13c0bfb1
+            
+            --"
+  ### How did overcome the Challenges Faced?
+        To overcome above access denied error, whenever above actions are performed using automated browser , the redirecting URL has been captured and then that URL is opened           in new browser to get rid of Access denied error. Also we could have done with alternative options to automate using web services as well.
 
 
